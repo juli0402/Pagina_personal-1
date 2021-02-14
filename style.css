@@ -1,0 +1,96 @@
+body {
+  background-color: #E3E2DF;
+}
+
+nav {
+  background-color: black;
+  border-bottom: 20px;
+  padding: 20px;
+}
+
+#home {
+  margin-top: 100px;
+}
+
+footer {
+  background-color: black;
+  color: #E3E2DF;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.titleRed {
+  color: #cf0101;
+  margin-top: 40px;
+}
+
+.skills {
+  border-radius: 5px;
+  text-align: center;
+  font-size: large;
+}
+
+.EduP {
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+.card {
+  background-color: #4E4E50;
+  color: #E3E2DF;
+}
+
+#projects {
+  margin-top: 20px;
+}
+
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.music {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.spotify {
+  background: linear-gradient(120deg, red, #191414);
+  height: 500px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+iframe {
+  width: 100%;
+}
+
+.pFooter {
+  margin-top: 5%;
+}
+
+.socialMediaF {
+  margin-left: 10%;
+}
+
+#contact {
+  margin-top: 10px;
+}
+
+.centered_text {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
