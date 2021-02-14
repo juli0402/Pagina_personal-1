@@ -25,10 +25,9 @@ footer {
   margin-top: 40px;
 }
 
-.skills {
-  border-radius: 5px;
-  text-align: center;
-  font-size: large;
+.img-prof {
+  max-width: 100%;
+  max-height: 350px;
 }
 
 .EduP {
@@ -79,7 +78,7 @@ iframe {
 }
 
 .pFooter {
-  margin-top: 5%;
+  margin-top: 10px;
 }
 
 .socialMediaF {

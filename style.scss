@@ -16,7 +16,6 @@ footer{
     color: #E3E2DF;
     left: 0;
     bottom: 0;
-    
     overflow: hidden;
 }
 
@@ -25,10 +24,9 @@ footer{
     margin-top: 40px;
 }
 
-.skills{
-    border: 2px;
-    border-color: black;
-    border-style: solid;
+.img-prof{
+    max-width: 100%;
+    max-height: 350px;
 }
 
 .EduP{
@@ -69,7 +67,7 @@ iframe{
 }
 
 .pFooter{
-    margin-top: 5%;
+    margin-top: 10px;
 }
 
 .socialMediaF{

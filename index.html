@@ -44,20 +44,22 @@
                 href="#hobbies"
                 tabindex="-1"
                 aria-disabled="true"
-                >Hobbies and interests</a
-              >
+                >Hobbies and interests</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
           </ul>
         </div>
       </div>
     </nav>
     <main>
       <div class="container">
-        <br><br>
+        <br>
         <section id="home">
             <div class="row">
                 <div class="col-md-6">
-                    <h2>Welcome to my website!</h2>
+                    <h1>Welcome to my website!</h1>
                     <p>
                         Hi! Im Pablo Andrés Garzón Robayo. I'm a 19 year old Systems and
                         Computing Engineering student from Bogotá, Colombia.
@@ -65,8 +67,8 @@
                         background, projects, hobbies and interests. Hope you enjoy!.
                     </p>
                 </div>
-                <div class="col-md-6">
-                    <img class="img-fluid" src="/static/profile.jpg">
+                <div class="col-md-6 centered_text">
+                    <img class="img-prof" src="/static/profile.jpg" alt="profile picture">
                 </div>
             </div>
         </section>
@@ -146,13 +148,13 @@
                 <div id="carouselExampleControls" class="carousel slide col-md-8" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="/static/silv2.jpg" class="d-block w-100" alt="...">
+                        <img src="/static/silv2.jpg" class="d-block w-100" alt="silverstein concert">
                       </div>
                       <div class="carousel-item">
-                        <img src="/static/silv1.jpg" class="d-block w-100" alt="...">
+                        <img src="/static/silv1.jpg" class="d-block w-100" alt="silverstein concert 2">
                       </div>
                       <div class="carousel-item">
-                        <img src="/static/sadSummer.jpg" class="d-block w-100" alt="...">
+                        <img src="/static/sadSummer.jpg" class="d-block w-100" alt="sad summer fest">
                       </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
@@ -170,12 +172,42 @@
             <p class="centered_text">If you would like to know what I listen to</p>
             <div class="row g-0 playlist">
                 <div class="col-md-6 d-sm-none d-md-flex d-none d-sm-flex spotify">
-                        <img id="spotify-logo" src="/static/spotify-logo.png" width="150px"/>
+                        <img id="spotify-logo" src="/static/spotify-logo.png" width="150px" alt="spotify logo"/>
                 </div>
                 <div class="col-md-6 mh-100">
                     <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWZkHEX2YHpDV" height="500px" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 </div>
             </div>
+
+            <h3 class="centered_text">Gaming</h3>
+            <p class="centered_text">Some of my favorite games</p>
+            <div class="row">
+                <div class="col-4"> 
+                    <div class="card">
+                        <img src="http://media.steampowered.com/apps/csgo/blog/images/fb_image.png?v=6" class="card-img-top" alt="counter strike global offensive">
+                        <div class="card-body">
+                          <p class="card-text">Counter Strike Global Offensive</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4"> 
+                    <div class="card">
+                        <img src="https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/apex-featured-image-16x9.jpg.adapt.crop191x100.1200w.jpg" class="card-img-top" alt="apex legends">
+                        <div class="card-body">
+                          <p class="card-text">Apex Legends.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4"> 
+                    <div class="card">
+                        <img src="https://steamcdn-a.akamaihd.net/steam/apps/546560/capsule_616x353.jpg?t=1605207546" class="card-img-top" alt="Half Life Alyx">
+                        <div class="card-body">
+                          <p class="card-text">Half Life Alyx</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
         </section>
         <hr>
         <section id="contact">
@@ -213,9 +245,9 @@
         <div class="row">
             <div class="col-8 pFooter">
                 <p class="socialMediaF">Find me on:</p>
-                <img class="socialMediaF" src="/static/instagram-logo.png" width="40px">
-                <img src="/static/twitter-logo.png" width="50px">
-                <img src="/static/linkedIn-logo.png" width="50px">
+                <a href="https://www.instagram.com/pabs8h/"><img class="socialMediaF" src="/static/instagram-logo.png" width="40px"></a>
+                <a href="https://twitter.com/Pabs8H"><img src="/static/twitter-logo.png" width="50px"></a>
+                <a href="https://www.linkedin.com/in/pablo-garzón-961574206"><img src="/static/linkedIn-logo.png" width="50px"></a>
             </div>
             <div class="col-4 pFooter">
                 <p>Pablo Garzon</p>
